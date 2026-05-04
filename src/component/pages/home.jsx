@@ -1,7 +1,7 @@
 import React from "react";
 import aboutImg from "../../assets/about.jpg";
 
-export default function About() {
+export default function Home() {
   return (
     <section className="py-5 home">
       <div className="container">

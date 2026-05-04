@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap");
+
+:root {
+  --btn-background: #00d3f3;
+  --colorBlack: #050505;
+  --background: #1e1e1e;
+  --crema: #d5d3d3;
+  --yellow: #c9a96e;
+}
+
+.about {
+  background-color: var(--yellow);
+}
+
+h2 {
+  color: var(--btn-background);
+  font-family: "Tektur", sans-serif;
+  font-weight: 400;
+  color: var(--colorBlack);
+}
+
+i {
+  color: var(--colorBlack);
+  width: 24px;
+  height: 24px;
+}
+
+.info {
+  font-weight: 200 !important;
+  font-family: "Telex", sans-serif !important;
+  color: var(--colorBlack) !important;
+}
+
+.statistics {
+  background-color: var(--background);
+  color: var(--crema);
+  margin: 0 0 20px;
+  width: 50%;
+}
+
+.statistics p {
+  color: var(--crema);
+  font-family: "Tektur", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0 0 0 20px;
+}
+
+.statistics span {
+  color: var(--crema);
+  font-family: "Tektur", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0 0 0 20px;
+}
