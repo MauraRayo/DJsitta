@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap");
+
+:root {
+  --btn-background: #00d3f3;
+  --colorBlack: #050505;
+  --background: #1e1e1e;
+  --crema: #d5d3d3;
+  --yellow: #c9a96e;
+}
+
+.home {
+  background-color: var(--background);
+}
+
+.title {
+  color: var(--btn-background);
+  font-family: "Tektur", sans-serif;
+  font-weight: 400;
+}
+.name {
+  color: var(--crema);
+  font-family: "Tektur", sans-serif;
+  font-weight: 200;
+  font-size: 80px;
+}
+
+.description {
+  color: var(--crema);
+}
