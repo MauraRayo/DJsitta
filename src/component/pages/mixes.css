@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap");
+
+:root {
+  --btn-background: #00d3f3;
+  --colorBlack: #050505;
+  --background: #1e1e1e;
+  --crema: #d5d3d3;
+  --yellow: #c9a96e;
+}
+
+.mixes-container {
+  background-color: var(--background);
+}
+
+.mixes-container .title {
+  font-family: "Tektur", sans-serif;
+  font-weight: 400;
+  color: var(--crema);
+}
+
+.mixes-container .mix-card {
+  transition: 0.3s ease;
+
+  width: 70%;
+  margin: 0 auto;
+  padding: 0.6rem 1rem;
+  border: 2px solid var(--crema);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  border-radius: 10px;
+  cursor: pointer;
+}
+.mixes-container .mix-card:hover {
+  border-color: var(--btn-background);
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px var(--btn-background);
+}
+
+.mixes-container .disc-icon {
+  font-size: 2.4rem;
+  color: var(--btn-background);
+  transition: 0.3s ease;
+}
+
+.mixes-container .mix-card:hover .disc-icon {
+  transform: rotate(20deg);
+}
+
+.mixes-container .mix-title {
+  font-family: "Tektur", sans-serif;
+  font-size: 1.1rem;
+  color: var(--crema);
+}
+.mix-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.mixes-container .mix-genre {
+  color: var(--crema);
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: 2px;
+}
+
+.mixes-container .mix-duration {
+  color: var(--crema);
+  font-family: "Tektur", sans-serif;
+}
+
+.mixes-container .listeners {
+  color: var(--btn-background);
+  font-weight: bold;
+  font-family: "Tektur", sans-serif;
+}

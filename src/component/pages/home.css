@@ -12,18 +12,18 @@
   background-color: var(--background);
 }
 
-.title {
+.home .title {
   color: var(--btn-background);
   font-family: "Tektur", sans-serif;
   font-weight: 400;
 }
-.name {
+.home .name {
   color: var(--crema);
   font-family: "Tektur", sans-serif;
   font-weight: 200;
   font-size: 80px;
 }
 
-.description {
+.home .description {
   color: var(--crema);
 }

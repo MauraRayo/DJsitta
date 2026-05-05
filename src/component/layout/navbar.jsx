@@ -18,31 +18,31 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <a className="nav-link active" href="#about">
                 About
               </a>
             </li>
 
             <li className="nav-item mx-4">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#mixes">
                 Mezcla
               </a>
             </li>
 
             <li className="nav-item mx-4">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#date">
                 Fechas
               </a>
             </li>
 
             <li className="nav-item mx-4">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#gallery">
                 Galeria
               </a>
             </li>
 
             <li className="nav-item mx-4">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact">
                 Contacto
               </a>
             </li>

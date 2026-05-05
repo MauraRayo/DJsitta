@@ -3,29 +3,24 @@ import "../pages/about.css";
 
 export default function About() {
   return (
-    <section className="py-5 about">
+    <section className="py-5 about" id="about">
       <div className="container">
         <div className="row align-items-center">
-          {/* Columna izquierda */}
           <div className="col-md-6">
-            <h2 className="fw-bold mb-3 ">SOBRE SITTA</h2>
+            <h2 className="mb-3 ">SOBRE SITTA</h2>
 
             <p className="mb-4 info">
-              DJ especializado en mezclas electrónicas, eventos privados y
-              sesiones exclusivas. Experiencia en clubs, festivales y
-              producciones personalizadas. DJ especializado en mezclas
-              electrónicas, eventos privados y sesiones exclusivas. Experiencia
-              en clubs, festivales y producciones personalizadas. DJ
-              especializado en mezclas electrónicas, eventos privados y sesiones
-              exclusivas. Experiencia en clubs, festivales y producciones
-              personalizadas. DJ especializado en mezclas electrónicas, eventos
-              privados y sesiones exclusivas. Experiencia en clubs, festivales y
-              producciones personalizadas. DJ especializado en mezclas
-              electrónicas, eventos privados y sesiones exclusivas. Experiencia
-              en clubs, festivales y producciones personalizadas. DJ
-              especializado en mezclas electrónicas, eventos privados y sesiones
-              exclusivas. Experiencia en clubs, festivales y producciones
-              personalizadas.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
             </p>
 
             <div className="d-flex gap-3 ">
@@ -43,7 +38,6 @@ export default function About() {
             </div>
           </div>
 
-          {/* Columna derecha */}
           <div className="col-md-6  mt-4 mt-md-0 stats-box">
             <div className="statistics">
               <p>2+ </p>
