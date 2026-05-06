@@ -11,7 +11,9 @@
 .home {
   background-color: var(--background);
 }
-
+.card-izq {
+  margin-top: 100px;
+}
 .home .title {
   color: var(--btn-background);
   font-family: "Tektur", sans-serif;
@@ -21,9 +23,55 @@
   color: var(--crema);
   font-family: "Tektur", sans-serif;
   font-weight: 200;
-  font-size: 80px;
+  font-size: 5rem;
+}
+.name .lyric {
+  position: relative;
+  display: inline-block;
+}
+.name .lyric::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 4px;
+  background: var(--btn-background);
 }
 
 .home .description {
   color: var(--crema);
+  font-family: "Telex", sans-serif;
+  font-weight: 200;
+}
+
+.btn-listen {
+  font-family: "Tektur", sans-serif;
+  background-color: var(--btn-background);
+  color: var(--colorBlack);
+  padding: 0.5rem 1.5rem;
+}
+
+.btn-listen:hover,
+.btn-contact:hover {
+  box-shadow: 0 0 10px var(--btn-background);
+  color: var(--btn-background);
+  border-color: var(--btn-background);
+  transform: translateY(-2px);
+}
+
+.btn-contact {
+  font-family: "Tektur", sans-serif;
+  color: var(--crema);
+  border: 2px solid var(--crema);
+  padding: 0.5rem 1.5rem;
+}
+
+.img-der {
+  filter: brightness(0.58) contrast(1.05);
+  transition: filter 0.3s ease;
+}
+
+.img-der:hover {
+  filter: brightness(0.65) contrast(1.1);
 }
