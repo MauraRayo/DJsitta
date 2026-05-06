@@ -5,6 +5,7 @@ import About from "./component/pages/about";
 import Mixes from "./component/pages/mixes";
 import Dates from "./component/pages/date";
 import Gallery from "./component/pages/gallery";
+import Contact from "./component/pages/contact";
 
 import "./component/layout/navbar.css";
 import "./component/pages/home.css";
@@ -18,6 +19,7 @@ function App() {
       <Mixes />
       <Dates />
       <Gallery />
+      <Contact />
     </>
   );
 }

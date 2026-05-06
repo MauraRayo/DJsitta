@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap");
+
+:root {
+  --btn-background: #00d3f3;
+  --colorBlack: #050505;
+  --background: #1e1e1e;
+  --crema: #d5d3d3;
+  --yellow: #c9a96e;
+  --placeholder: #727272;
+}
+
+.contact-container {
+  background: var(--background);
+}
+
+.contact-container .title {
+  color: var(--crema);
+  font-family: "Tektur", sans-serif;
+  font-weight: 400;
+  margin-left: 5%;
+}
+
+.contact-container .subtitle {
+  color: var(--crema);
+  font-family: "Telex", sans-serif;
+  font-weight: 200;
+  margin-left: 60px;
+}
+
+.row-form {
+  display: flex;
+  gap: 50px;
+  margin: 0 0 25px 60px;
+  width: 100%;
+}
+
+.contact-form .input {
+  flex: 1.5;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--placeholder);
+  padding: 10px 0;
+  color: var(--placeholder);
+  font-family: "Tektur", sans-serif;
+}
+
+.contact-form .textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--placeholder);
+  padding: 10px 0;
+  color: var(--placeholder);
+  font-family: "Tektur", sans-serif;
+  margin: 0 0 25px 60px;
+}
+
+.contact-form .input::placeholder,
+.contact-form .textarea::placeholder {
+  color: var(--placeholder);
+}
+
+.contact-form select option {
+  background: var(--background);
+  color: var(--crema);
+}
+
+.contact-form .input:focus,
+.contact-form .textarea:focus {
+  outline: none;
+  border-bottom: 1px solid var(--btn-background);
+  box-shadow: 0 2px 8px var(--btn-background);
+}
+
+.btn-send {
+  font-family: "Tektur", sans-serif;
+  background-color: var(--btn-background);
+  color: var(--colorBlack);
+  padding: 0.5rem 1.5rem;
+  margin-left: 60px;
+  border: none;
+}
+
+.btn-send:hover {
+  box-shadow: 0 0 10px var(--btn-background);
+  color: var(--btn-background);
+  border-color: var(--btn-background);
+  transform: translateY(-2px);
+}

@@ -24,7 +24,7 @@ export default function Date() {
   ];
 
   return (
-    <section className="dates-container py-5" id="dates">
+    <section className="dates-container py-5" id="date">
       <h2 className="mb-4 title">PRÓXIMAS FECHAS</h2>
 
       {dates.map((date, index) => (

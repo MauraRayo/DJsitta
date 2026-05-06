@@ -11,7 +11,7 @@ export default function gallery() {
   const images = [img1, img2, img3, img4, img5, img6];
 
   return (
-    <section className="gallery-collage container py-5" id="gallery">
+    <section className="gallery-container container py-5" id="gallery">
       <h2 className="mb-3  title">Galeria</h2>
       <div className="row g-3">
         <div className="col-md-6">
