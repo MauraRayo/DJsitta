@@ -15,6 +15,12 @@ export default function Mezcla() {
       duration: "62:30",
       listeners: "3.45K",
     },
+    {
+      title: "Summer vibes 2026",
+      genre: "Deep House",
+      duration: "62:30",
+      listeners: "3.45K",
+    },
   ];
 
   return (
