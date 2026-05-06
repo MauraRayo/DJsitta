@@ -3,6 +3,7 @@ import Navbar from "./component/layout/navbar";
 import Home from "./component/pages/home";
 import About from "./component/pages/about";
 import Mixes from "./component/pages/mixes";
+import Dates from "./component/pages/date";
 
 import "./component/layout/navbar.css";
 import "./component/pages/home.css";
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <About />
       <Mixes />
+      <Dates />
     </>
   );
 }

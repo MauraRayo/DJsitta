@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap");
+
+:root {
+  --btn-background: #00d3f3;
+  --colorBlack: #050505;
+  --background: #1e1e1e;
+  --crema: #d5d3d3;
+  --yellow: #c9a96e;
+  --white: #fff;
+}
+
+.dates-container {
+  background-color: var(--btn-background);
+}
+
+.dates-container .title {
+  color: white;
+  font-family: "Tektur", sans-serif;
+  font-weight: 400;
+  color: var(--colorBlack);
+  margin-left: 5% !important;
+}
+
+.date-card {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.6rem 1rem;
+  border: 2px solid transparent;
+  background-color: var(--white);
+
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.date-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--btn-background); /* azul neón */
+  box-shadow:
+    0 0 12px #00d3f3,
+    0 0 25px rgba(0, 211, 243, 0.6),
+    0 0 40px rgba(0, 211, 243, 0.4);
+}
+
+.date-number {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Tektur", sans-serif;
+  color: var(--colorBlack);
+  border-left: 5px solid #00d3f3;
+  padding-left: 10px;
+}
+
+.event-title {
+  font-family: "Tektur", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--colorBlack);
+}
+
+.event-location {
+  color: var(--background);
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: 2px;
+  font-weight: 600;
+}
+
+.btn-ticket {
+  font-family: "Tektur", sans-serif;
+  background: var(--background);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 6px;
+  width: 250px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-ticket:hover {
+  box-shadow: 0 0 10px var(--btn-background);
+  color: var(--btn-background);
+  border-color: var(--btn-background);
+  background: var(--background);
+  transform: translateY(-2px);
+}
