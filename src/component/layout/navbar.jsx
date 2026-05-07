@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <a className="navbar-brand logo" href="#">
           <i className="bi bi-disc"></i>SITTA
@@ -17,7 +17,7 @@ export default function Navbar() {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
+            <li className="nav-item mx-4">
               <a className="nav-link active" href="#about">
                 About
               </a>
@@ -37,7 +37,7 @@ export default function Navbar() {
 
             <li className="nav-item mx-4">
               <a className="nav-link" href="#gallery">
-                Galeria
+                Galería
               </a>
             </li>
 
@@ -48,9 +48,8 @@ export default function Navbar() {
             </li>
 
             <li className="nav-item ms-lg-2 mx-4">
-              <a className="nav-link btn_reservas" href="#">
-                Reservas
-                <i className="bi bi-arrow-right"></i>
+              <a className="nav-link btn_reservas" href="#contact">
+                Reservas <i className="bi bi-arrow-right"></i>
               </a>
             </li>
           </ul>

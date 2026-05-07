@@ -18,7 +18,7 @@ export default function ContactForm() {
         responderé lo antes posible.
       </p>
 
-      <form className="contact-form col-md-6" id="contact">
+      <form className="contact-form col-md-10" id="contact">
         <div className="row-form">
           <input type="text" className="input" placeholder="Nombre" />
           <input type="email" className="input" placeholder="tu@email.com" />
@@ -37,7 +37,6 @@ export default function ContactForm() {
           <input type="date" className="input" />
         </div>
 
-        {/* Mensaje */}
         <textarea
           className="textarea"
           rows="4"

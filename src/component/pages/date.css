@@ -83,3 +83,35 @@
   background: var(--background);
   transform: translateY(-2px);
 }
+
+@media (max-width: 576px) {
+  .date-card {
+    flex-direction: column !important;
+    text-align: center;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .date-number {
+    font-size: 1.2rem;
+    border-left: none;
+    padding-left: 0;
+    border-bottom: 3px solid var(--btn-background);
+    padding-bottom: 5px;
+    width: 100%;
+  }
+
+  .event-title {
+    font-size: 1.4rem;
+  }
+
+  .event-location {
+    font-size: 0.9rem;
+  }
+
+  .btn-ticket {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+}

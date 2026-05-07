@@ -8,7 +8,7 @@
   --yellow: #c9a96e;
 }
 
-nav {
+.navbar {
   font-family: "Tektur", sans-serif;
   font-weight: 200;
 }
@@ -21,9 +21,13 @@ nav {
   font-variation-settings: "wdth" 100;
 }
 
-li .btn_reservas {
-  list-style: none;
+.btn_reservas {
   background-color: var(--btn-background);
   color: var(--colorBlack);
   border-radius: 5px;
+  padding: 6px 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
 }
