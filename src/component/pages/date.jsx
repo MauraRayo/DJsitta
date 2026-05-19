@@ -4,19 +4,19 @@ import "../pages/date.css";
 export default function Date() {
   const dates = [
     {
-      title: "Sonora",
+      title: "BEC: Bilbao Exhibition Centre",
       location: "Bilbao",
       date: "28/04/2026",
       ticketType: "Entrada Gratis",
     },
     {
-      title: "Sonora",
+      title: "BEC: Bilbao Exhibition Centre",
       location: "Bilbao",
       date: "28/04/2026",
       ticketType: "Comprar Entrada",
     },
     {
-      title: "Sonora",
+      title: "BEC: Bilbao Exhibition Centre",
       location: "Bilbao",
       date: "28/04/2026",
       ticketType: "Comprar Entrada",

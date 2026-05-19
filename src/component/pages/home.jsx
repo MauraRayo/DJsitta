@@ -13,9 +13,10 @@ export default function Home() {
             </h1>
 
             <p className="mb-4 description">
-              DJ especializado en mezclas electrónicas, eventos privados y
-              sesiones exclusivas. Experiencia en clubs, festivales y
-              producciones personalizadas.
+              DJ con amplia trayectoria en reggaeton y música latina, fusionando
+              los grandes clásicos de los 80s y 90s con los hits más actuales.
+              Disponible para eventos privados, celebraciones y producciones
+              personalizadas.
             </p>
 
             <div className="d-flex gap-4">

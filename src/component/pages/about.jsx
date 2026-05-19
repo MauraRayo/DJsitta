@@ -10,17 +10,17 @@ export default function About() {
             <h2 className="mb-3 ">SOBRE SITTA</h2>
 
             <p className="mb-4 info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              Soy DJ con dos años de trayectoria, especializándome en crear
+              experiencias musicales únicas para eventos privados, bodas,
+              comidas y celebraciones de todo tipo.<br></br>
+              Mi sello es la mezcla: desde los clásicos atemporales de los 60s,
+              70s, 80s y 90s hasta la electrónica más actual, pasando por el
+              reggaeton —tanto el clásico que nos marcó como los hits de hoy.
+              <br></br>
+              Me adapto al ambiente y a la gente, porque cada evento merece su
+              propia banda sonora. Con sede en Bilbao, he llevado mi música más
+              allá de las fronteras, pinchando también en Malta. Si buscas a
+              alguien que haga bailar a todos estás en el lugar correcto.
             </p>
 
             <div className="d-flex gap-3 ">
@@ -48,7 +48,7 @@ export default function About() {
               <span>Show en 2025</span>
             </div>
             <div className="statistics">
-              <p>10K </p>
+              <p>2K </p>
               <span>Seguidores</span>
             </div>
           </div>

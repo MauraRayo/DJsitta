@@ -4,20 +4,20 @@ import "../pages/mixes.css";
 export default function Mezcla() {
   const mixes = [
     {
-      title: "Summer vibes 2026",
-      genre: "Deep House",
+      title: "Retro Hits · 70s & 80s Gold",
+      genre: "Clásicos 70s-80s",
       duration: "62:30",
       listeners: "3.45K",
     },
     {
-      title: "Summer vibes 2026",
-      genre: "Deep House",
+      title: "Retro Hits · 70s & 80s Gold",
+      genre: "Clásicos 70s-80s",
       duration: "62:30",
       listeners: "3.45K",
     },
     {
-      title: "Summer vibes 2026",
-      genre: "Deep House",
+      title: "🔥 Perreo & Retro Vibes",
+      genre: "Reggaeton Old & New · 80s Hits",
       duration: "62:30",
       listeners: "3.45K",
     },
